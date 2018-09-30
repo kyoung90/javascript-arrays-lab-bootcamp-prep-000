@@ -18,10 +18,14 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  kittens = [...kittens, name];
+  var newArr = [...kittens, name];
+  return newArr;
 }
 
 function prependKitten(name){
   kittens = [name, ...kittens];
 }
 
+function removeLastKitten(){
+  
+}
